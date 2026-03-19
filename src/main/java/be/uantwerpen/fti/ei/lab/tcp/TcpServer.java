@@ -6,8 +6,6 @@ import java.net.Socket;
 
 public class TcpServer {
     private static final int PORT = 5000;
-    private static final String SHARED_FOLDER = "shared";
-
 
     public static void main(String[] args) {
         System.out.println("TCP Server started on port " + PORT);
